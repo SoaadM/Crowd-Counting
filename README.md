@@ -1,1 +1,1 @@
-# Applying Deep Learning in Crowd Counting
+# Apply Deep Learning in Crowd Counting
