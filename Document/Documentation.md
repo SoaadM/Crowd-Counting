@@ -34,7 +34,8 @@ All images are 1920x1200 (download size ~3.1 GB). We have also provided a versio
    * Backbone - A convolutional neural network that aggregates and forms image features at different granularities.
    * Neck - A series of layers to mix and combine image features to pass them forward to prediction.
    * Head - Consumes features from the neck and takes box and class prediction steps.
-   ![alt text](../Images/yolov5_algorithm.png "yolov5 algorithm")
+   
+![yolov5_algorithm](https://user-images.githubusercontent.com/63080488/150675745-b3864940-17c9-4e3c-a636-a0e3cef8c79b.png)
 
 ## Model Evaluation and Selection
 Since we are dealing with image classification the best course of action is to use convolutional neural networks since it’s very effective in reducing the number of parameters without losing on the quality of models. Images have high dimensionality (as each pixel is considered as a feature). YOLO algorithm employs convolutional neural networks (CNN) to detect objects in real-time. As the name suggests, the algorithm requires only a single forward propagation through a neural network to detect objects. This means that prediction in the entire image is done in a single algorithm run
