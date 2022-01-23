@@ -40,11 +40,14 @@ All images are 1920x1200 (download size ~3.1 GB). We have also provided a versio
 ## Model Evaluation and Selection
 Since we are dealing with image classification the best course of action is to use convolutional neural networks since it’s very effective in reducing the number of parameters without losing on the quality of models. Images have high dimensionality (as each pixel is considered as a feature). YOLO algorithm employs convolutional neural networks (CNN) to detect objects in real-time. As the name suggests, the algorithm requires only a single forward propagation through a neural network to detect objects. This means that prediction in the entire image is done in a single algorithm run
 
-![alt text](../Images/test1.png)
+<img width="776" alt="test1" src="https://user-images.githubusercontent.com/63080488/150675779-d5cc6e0d-4767-4b22-9efa-4e2f42203b47.png">
+
 ---
-![alt text](../Images/test2.png)
+<img width="777" alt="test2" src="https://user-images.githubusercontent.com/63080488/150675786-60f43339-6868-4826-8bd8-c1b6dc9c5d38.png">
+
 ---
-![alt text](../Images/test3.png)
+<img width="813" alt="test3" src="https://user-images.githubusercontent.com/63080488/150675792-1f38c147-d610-4573-93f5-7445fa71a475.png">
+
 ---
 > [Video demonstration](https://www.youtube.com/watch?v=qaCLV4Y_H3M)
 
